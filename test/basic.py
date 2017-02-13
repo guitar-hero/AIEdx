@@ -30,10 +30,10 @@ class State:
 
     def incNodes_expanded(self):
         self.nodes_expanded += 1
-    
-    
 
-
+    def incFringe_size(self):
+        self.fringe_size += 1
+    
 
 class Board:
  

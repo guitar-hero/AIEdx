@@ -55,6 +55,7 @@ class Board:
 
 b = Board()
 b2 = Board()
+b3 = Board()
 
 answer = b.getParent()
 b2.setParent('new Parent man')
